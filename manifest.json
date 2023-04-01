@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Monetization Checker",
+  "version": "1",
+  "description": "Check monetization for youtube channel on videos or channel page",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "monetization.js"
+      ]
+    }
+  ]
+}
